@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Greenroof Housing</title>
+<style>
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--fg: #111;
+	--bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fg: #ccc;
+		--bg: #111;
+	}
+}
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+	src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"),
+		local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"),
+		local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+body {
+	font-family: system;
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background-color: var(--bg);
+	color: var(--fg);
+}
+
+header, footer {
+	padding: 1em;
+}
+
+main {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+</style>
+	</head>
+	<body>
+		<header>
+			<h1>Greenroof Housing</h1>
+		</header>
+		<main>
+			<h2 style="text-align: center">Coming Soon!</h2>
+		</main>
+		<footer style="text-align: center">
+			Copyright &copy; 2022 Greenroof Housing LLC
+		</footer>
+	</body>
+</html>
